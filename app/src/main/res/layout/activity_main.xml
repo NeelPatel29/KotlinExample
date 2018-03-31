@@ -37,6 +37,18 @@
         android:textColor="#ffffff"
         android:layout_margin="10dp"/>
 
+        <Button
+            android:id="@+id/buttonBottomNavigation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:elevation="15dp"
+            android:text="Bottom Menu Kotlin"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"/>
+
     </LinearLayout>
 </ScrollView>
 

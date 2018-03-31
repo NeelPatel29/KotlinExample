@@ -23,5 +23,11 @@ class MainActivity : AppCompatActivity() {
             val intentRec = Intent(this,RecyclerViewActivity::class.java)
             startActivity(intentRec)
         })
+
+        buttonBottomNavigation.setOnClickListener(View.OnClickListener {
+
+            val intentBNav = Intent(this,BottomNavigation::class.java)
+            startActivity(intentBNav)
+        })
     }
 }

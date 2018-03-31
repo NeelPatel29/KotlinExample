@@ -20,7 +20,10 @@
             android:name=".MessageOnButtonClick"
             android:label="ButtonClick" />
         <activity android:name=".RecyclerViewActivity" />
-        <activity android:name=".RecyclerViewAdapter"></activity>
+        <activity android:name=".RecyclerViewAdapter" />
+        <activity
+            android:name=".BottomNavigation"
+            android:label="@string/title_activity_bottom_navigation"></activity>
     </application>
 
 </manifest>
