@@ -17,7 +17,7 @@ class KotlinFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_kotlin, container, false)
     }
 
-    companion object {
+    companion object { 
         fun newInstance(): KotlinFragment = KotlinFragment()
     }
 
